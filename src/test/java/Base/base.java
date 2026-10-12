@@ -41,6 +41,12 @@ public class base {
 a.get("https://www.amazon.in/");
 a.findElement(By.cssSelector("input[id='twotabsearchtextbox']")).sendKeys("towel");
 a.findElement(By.cssSelector("span[class='s-heavy']")).click();
+	//even/odd
+int n=5;
+for(int i=1;i<=n;i++)	
+{if(i%2==0) {
+	System.out.println(i+" is even");
+}
 	}
 	}}
-
+}
