@@ -48,7 +48,7 @@ for(int i=1;i<=n;i++)
 	System.out.println(i+" is even");
 }
 else {
-	System.out.println(i+" is odd");
+	System.out.println(i+" is o");
 	}
 	}}
 }
